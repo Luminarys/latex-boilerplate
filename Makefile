@@ -33,4 +33,4 @@ open:
 	zathura document.pdf &
 
 clean:
-	rm -f *.out *.aux *.dvi *.log *.blg *.bbl *.tex-e
+	rm -f *.out *.pdf *.aux *.dvi *.log *.blg *.bbl *.tex-e
