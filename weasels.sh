@@ -39,7 +39,7 @@ fi
  
 output=$(egrep -i -n --color "\\b($weasels)\\b" $* )
 egrep -i -n --color "\\b($weasels)\\b" $*
-
+exit 0
 if [ "$output" == "" ]; then
   exit 0
 else

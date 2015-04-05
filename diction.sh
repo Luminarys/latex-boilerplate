@@ -9,6 +9,7 @@ diction -sd $*
 output=$(diction -sd $* | wc -l)
 
 # if fixes need to be made, stop the process (exit w/ error)
+exit 0
 if [[ $output -gt 1 ]]; then
   exit 1
 else 
